@@ -1,0 +1,44 @@
+ul{   
+    list-style-type: none;
+}
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    border: 3px ridge red;
+    border-radius: 1rem;
+    padding: 5px 5px;
+}
+footer{
+    border: 3px ridge blue;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+section{
+    text-align: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+li:hover{
+    background-color: black;
+}
+a:visited{
+    color: black;
+}
+li:hover a{
+    color: white;
+}
